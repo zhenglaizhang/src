@@ -1,14 +1,13 @@
 #!/bin/bash
-
-OPTIONS="Hello Quit"
+Options="Hello Exit"
 select opt in $OPTIONS; do
-    if [ "$opt" = "Quit" ]; then
-        echo done
-        exit 0
-    elif [ "$opt" = "Hello" ]; then
-        echo Hello World
-    else
-        clear
-        echo bad option
-    fi
+	if [ "$opt" = "Exit" ]; then
+		echo done
+		exit 0
+	elif [ "$opt" = "Hello" ]; then
+		echo Hello World
+	else 
+		clear
+		echo bad option
+	fi
 done
