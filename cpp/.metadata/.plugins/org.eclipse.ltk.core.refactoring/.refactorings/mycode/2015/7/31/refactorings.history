@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Create method sayHello" description="Extract Method Refactoring" fileName="file:/Users/Darin/dev/src/cpp/mycode/src/mycode.cpp" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractfunction.ExtractFunctionRefactoring" name="sayHello" replaceDuplicates="false" selection="77,37" stamp="1438215711937" visibility="private"/>
+</session>

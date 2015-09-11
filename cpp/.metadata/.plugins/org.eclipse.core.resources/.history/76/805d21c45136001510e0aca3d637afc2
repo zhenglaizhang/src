@@ -1,0 +1,11 @@
+#include <iostream>
+
+void sayHello(std::ostream& out) {
+	out << "!!!Hello World!!!" << std::endl;
+}
+
+int main() {
+	ostream& out = std::cout;
+	sayHello(out);
+	return 0;
+}

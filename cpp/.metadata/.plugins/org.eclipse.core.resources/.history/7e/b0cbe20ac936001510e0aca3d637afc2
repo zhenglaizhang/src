@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+
+#include "sayHello.h"
+
+
+template <size_t N>
+void doubleIntsStack(int (&theArray)[N])
+{
+	for (size_t i = 0; i < N; ++i)
+	{
+		std::cout << theArray[i] << ", " << std::endl;
+	}
+}
+
+void test()
+{
+//	 char** board = new char[10][20];
+
+//	char* p1 = (char*)&std::cout;
+//	char* p2 = static_cast<char*>(&std::cout);
+//	std::cout << p1 << "\t" << p2 << std::endl;
+}
+
+int main() {
+	std::ostream& out = std::cout;
+	sayHello(out);
+	test();
+	int a[2] = {1, 2};
+	doubleIntsStack(a);
+	return 0;
+}
+
+

@@ -1,0 +1,1104 @@
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+08:40:19 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Undefined symbols for architecture x86_64:
+  "sayHello(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)", referenced from:
+      _main in mycode.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mycode] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+08:40:54 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Undefined symbols for architecture x86_64:
+  "sayHello(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)", referenced from:
+      _main in mycode.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mycode] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+08:40:55 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Undefined symbols for architecture x86_64:
+  "sayHello(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)", referenced from:
+      _main in mycode.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mycode] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+08:40:56 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Undefined symbols for architecture x86_64:
+  "sayHello(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)", referenced from:
+      _main in mycode.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mycode] Error 1
+20:35:54 **** Clean-only build of configuration Debug for project mycode ****
+make clean 
+rm -rf  ./src/mycode.o  ./src/mycode.d  mycode
+ 
+20:35:54 **** Clean-only build of configuration Debug for project mylib ****
+make clean 
+rm -rf  libmylib.a
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:35:59 **** Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:36:31 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:36:56 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+20:37:04 **** Clean-only build of configuration Debug for project mycode ****
+make clean 
+rm -rf  ./src/mycode.o  ./src/mycode.d  mycode
+ 
+20:37:04 **** Clean-only build of configuration Debug for project mylib ****
+make clean 
+rm -rf  libmylib.a
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:37:11 **** Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:37:28 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:39:08 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:14:9: error: cannot initialize a variable of type 'char **' with an rvalue of type 'char (*)[20]'
+        char** board = new char[10][20];
+               ^       ~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:54:20 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:54:22 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:54:55 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:54:56 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:54:57 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+20:55:02 **** Clean-only build of configuration Debug for project mycode ****
+make clean 
+rm -rf  ./src/mycode.o  ./src/mycode.d  mycode
+ 
+20:55:02 **** Clean-only build of configuration Debug for project mylib ****
+make clean 
+rm -rf  libmylib.a
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:55:13 **** Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:56:45 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:17:31: error: expected '(' after 'static_cast'
+        char* p2 = static_cast<char*>&std::cout;
+                                     ^
+                                     (
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:03 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:17:31: error: expected '(' after 'static_cast'
+        char* p2 = static_cast<char*>&std::cout;
+                                     ^
+                                     (
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:04 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:17:31: error: expected '(' after 'static_cast'
+        char* p2 = static_cast<char*>&std::cout;
+                                     ^
+                                     (
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:11 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:9:2: error: use of undeclared identifier 'test'
+        test();
+        ^
+../src/mycode.cpp:18:13: error: static_cast from 'ostream *' (aka 'basic_ostream<char> *') to 'char *' is not allowed
+        char* p2 = static_cast<char*>(&std::cout);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 errors generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:32 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:10:13: error: static_cast from 'ostream *' (aka 'basic_ostream<char> *') to 'char *' is not allowed
+        char* p2 = static_cast<char*>(&std::cout);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:33 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:10:13: error: static_cast from 'ostream *' (aka 'basic_ostream<char> *') to 'char *' is not allowed
+        char* p2 = static_cast<char*>(&std::cout);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:48 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:10:13: error: static_cast from 'ostream *' (aka 'basic_ostream<char> *') to 'char *' is not allowed
+        char* p2 = static_cast<char*>(&std::cout);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:50 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:10:13: error: static_cast from 'ostream *' (aka 'basic_ostream<char> *') to 'char *' is not allowed
+        char* p2 = static_cast<char*>(&std::cout);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+20:57:52 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:9:8: warning: unused variable 'p1' [-Wunused-variable]
+        char* p1 = (char*)&std::cout;
+              ^
+1 warning generated.
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+21:12:27 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+21:12:28 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+21:12:40 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:29:10: error: expected ';' at end of declaration
+        int a[2] {1, 2};
+                ^
+                ;
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+21:12:59 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:29:10: error: expected ';' at end of declaration
+        int a[2] {1, 2};
+                ^
+                ;
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+21:13:06 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:41:34 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:33:2: error: no template named 'shared_ptr'; did you mean 'std::shared_ptr'?
+        shared_ptr<Nothing> sp1(myNothing);
+        ^~~~~~~~~~
+        std::shared_ptr
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3788:29: note: 'std::shared_ptr' declared here
+class _LIBCPP_TYPE_VIS_ONLY shared_ptr
+                            ^
+../src/mycode.cpp:34:2: error: no template named 'shared_ptr'; did you mean 'std::shared_ptr'?
+        shared_ptr<Nothing> sp2(myNothing);
+        ^~~~~~~~~~
+        std::shared_ptr
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4038:61: note: 'std::shared_ptr' declared here
+    template <class _Up> friend class _LIBCPP_TYPE_VIS_ONLY shared_ptr;
+                                                            ^
+2 errors generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:41:53 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:07 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:09 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:09 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:11 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:13 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:14 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+22:42:15 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:13:42 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:13:44 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:39:9: error: assigning to 'char *' from incompatible type 'int'
+        cp[10] = 12;
+               ^ ~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:13:54 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:39:9: error: assigning to 'char *' from incompatible type 'char'
+        cp[10] = 'a';
+               ^ ~~~
+1 error generated.
+make: *** [src/mycode.o] Error 1
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:14:23 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:39:2: warning: array index 10 is past the end of the array (which contains 10 elements) [-Warray-bounds]
+        cp[10] = 'a';
+        ^  ~~
+../src/mycode.cpp:38:2: note: array 'cp' declared here
+        char cp[10];
+        ^
+1 warning generated.
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:14:45 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:15:17 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:39:2: warning: array index 10 is past the end of the array (which contains 10 elements) [-Warray-bounds]
+        cp[10] = 'a';
+        ^  ~~
+../src/mycode.cpp:38:2: note: array 'cp' declared here
+        char cp[10];
+        ^
+1 warning generated.
+Finished building: ../src/mycode.cpp
+ 
+Building target: mycode
+Invoking: MacOS X C++ Linker
+g++  -o "mycode"  ./src/mycode.o   
+Finished building target: mycode
+ 
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:15:22 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:15:25 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:15:26 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project mylib ****
+
+Nothing to build for project mylib
+23:15:26 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:25:03 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.h:30:30: error: a space is required between consecutive right angle brackets (use '> >')
+        std::queue<std::shared_ptr<T>> freeList;
+                                    ^~
+                                    > >
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 3 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:25:03 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:26:17 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:26:17 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:26:23 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:26:23 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:26:24 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:26:25 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:26:26 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:26:26 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+00:26:27 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+00:26:27 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:48:01 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+13:48:01 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:48:20 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+13:48:20 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:48:26 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:12:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+../src/ObjectPool.cpp:17:1: error: 'ObjectPool' is not a class, namespace, or enumeration
+ObjectPool::~ObjectPool() {
+^
+../src/ObjectPool.h:19:7: note: 'ObjectPool' declared here
+class ObjectPool {
+      ^
+3 warnings and 2 errors generated.
+make: *** [src/ObjectPool.o] Error 1
+13:48:26 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:00 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:21:23: error: expected '}'
+//} /* namespace my */
+                      ^
+../src/ObjectPool.cpp:10:16: note: to match this '{'
+namespace meow {
+               ^
+3 warnings and 1 error generated.
+make: *** [src/ObjectPool.o] Error 1
+13:49:01 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:03 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+../src/ObjectPool.cpp:21:23: error: expected '}'
+//} /* namespace my */
+                      ^
+../src/ObjectPool.cpp:10:16: note: to match this '{'
+namespace meow {
+               ^
+3 warnings and 1 error generated.
+make: *** [src/ObjectPool.o] Error 1
+13:49:03 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:16 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+Building file: ../src/ObjectPool.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool.d" -MT"src/ObjectPool.d" -o "src/ObjectPool.o" "../src/ObjectPool.cpp"
+In file included from ../src/ObjectPool.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+3 warnings generated.
+Finished building: ../src/ObjectPool.cpp
+ 
+Building file: ../src/ObjectPool_test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ObjectPool_test.d" -MT"src/ObjectPool_test.d" -o "src/ObjectPool_test.o" "../src/ObjectPool_test.cpp"
+In file included from ../src/ObjectPool_test.cpp:8:
+../src/ObjectPool.h:22:37: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool(const ObjectPool<T>&) = delete;
+                                           ^
+../src/ObjectPool.h:23:51: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+        ObjectPool<T>& operator=(const ObjectPool<T>&) = delete;
+                                                         ^
+../src/ObjectPool.h:25:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+        using Object = std::shared_ptr<T>;
+                       ^
+3 warnings generated.
+Finished building: ../src/ObjectPool_test.cpp
+ 
+Building target: libmylib.a
+Invoking: GCC Archiver
+ar -r  "libmylib.a"  ./src/ObjectPool.o ./src/ObjectPool_test.o   
+ar: creating archive libmylib.a
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libmylib.a(ObjectPool.o) has no symbols
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libmylib.a(ObjectPool_test.o) has no symbols
+Finished building target: libmylib.a
+ 
+13:49:16 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:18 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:49:18 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:26 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:49:26 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:28 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:49:28 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:49:29 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:49:29 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:50:03 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:50:03 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+make: Nothing to be done for `all'.
+13:50:06 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+13:50:06 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:39:2: warning: array index 10 is past the end of the array (which contains 10 elements) [-Warray-bounds]
+        cp[10] = 'a';
+        ^  ~~
+../src/mycode.cpp:38:2: note: array 'cp' declared here
+        char cp[10];
+        ^
+../src/mycode.cpp:43:5: error: expected unqualified-id
+int INT_MAX = 12;
+    ^
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/limits.h:62:19: note: expanded from macro 'INT_MAX'
+#define INT_MAX   __INT_MAX__
+                  ^
+<built-in>:40:21: note: expanded from here
+#define __INT_MAX__ 2147483647
+                    ^
+../src/mycode.cpp:46:2: error: use of undeclared identifier 'assert'
+        assert(INT_MAX == 1);
+        ^
+1 warning and 2 errors generated.
+make: *** [src/mycode.o] Error 1
+14:02:05 **** Incremental Build of configuration Debug for project mylib ****
+make all 
+make: Nothing to be done for `all'.
+14:02:05 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:40:2: warning: array index 10 is past the end of the array (which contains 10 elements) [-Warray-bounds]
+        cp[10] = 'a';
+        ^  ~~
+../src/mycode.cpp:39:2: note: array 'cp' declared here
+        char cp[10];
+        ^
+../src/mycode.cpp:56:40: error: too many arguments provided to function-like macro invocation
+        static_assert(is_base_of<A,B>::value, "A is not base of B");
+                                              ^
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config:552:9: note: macro 'static_assert' defined here
+#define static_assert(__b, __m) \
+        ^
+../src/mycode.cpp:56:2: error: use of undeclared identifier 'static_assert'
+        static_assert(is_base_of<A,B>::value, "A is not base of B");
+        ^
+1 warning and 2 errors generated.
+make: *** [src/mycode.o] Error 1

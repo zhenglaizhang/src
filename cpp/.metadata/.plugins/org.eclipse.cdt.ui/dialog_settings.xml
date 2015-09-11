@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="true" key="stubSelected1"/>
+		<item value="true" key="stubVirtual1"/>
+		<item value="true" key="namespaceSelected"/>
+		<item value="false" key="stubInline0"/>
+		<item value="false" key="stubInline1"/>
+		<item value="my" key="namespace"/>
+		<item value="true" key="testFileSelected"/>
+		<item value="true" key="stubSelected0"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="CRenameRefactoringInputPage">
+	</section>
+	<section name="ExtractFunctionWizard">
+		<item value="private" key="AccessModifier"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

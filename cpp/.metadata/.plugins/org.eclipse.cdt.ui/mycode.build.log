@@ -1,0 +1,25 @@
+14:02:05 **** Incremental Build of configuration Debug for project mycode ****
+make all 
+Building file: ../src/mycode.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/Darin/dev/src/cpp/mylib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mycode.d" -MT"src/mycode.d" -o "src/mycode.o" "../src/mycode.cpp"
+../src/mycode.cpp:40:2: warning: array index 10 is past the end of the array (which contains 10 elements) [-Warray-bounds]
+        cp[10] = 'a';
+        ^  ~~
+../src/mycode.cpp:39:2: note: array 'cp' declared here
+        char cp[10];
+        ^
+../src/mycode.cpp:56:40: error: too many arguments provided to function-like macro invocation
+        static_assert(is_base_of<A,B>::value, "A is not base of B");
+                                              ^
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config:552:9: note: macro 'static_assert' defined here
+#define static_assert(__b, __m) \
+        ^
+../src/mycode.cpp:56:2: error: use of undeclared identifier 'static_assert'
+        static_assert(is_base_of<A,B>::value, "A is not base of B");
+        ^
+1 warning and 2 errors generated.
+make: *** [src/mycode.o] Error 1
+
+14:02:05 Build Finished (took 289ms)
+

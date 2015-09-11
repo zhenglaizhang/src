@@ -1,0 +1,7 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier|13.0|0|COCOA|1|Courier;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
+org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Monoid|12.0|0|COCOA|1|Monoid-Regular;

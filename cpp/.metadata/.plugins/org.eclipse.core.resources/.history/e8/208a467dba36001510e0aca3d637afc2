@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+#include "sayHello.h"
+
+int main() {
+	std::ostream& out = std::cout;
+	sayHello(out);
+	return 0;
+}
+
+
+void test()
+{
+//	 char** board = new char[10][20];
+	char* p1 = (char*)&std::cout;
+	char* p2 = static_cast<char*>&std::cout;
+}

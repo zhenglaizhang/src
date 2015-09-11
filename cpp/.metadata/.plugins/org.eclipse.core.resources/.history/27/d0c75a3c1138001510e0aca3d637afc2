@@ -1,0 +1,56 @@
+#include <iostream>
+#include <string>
+#include <memory>
+#include <assert>
+
+#include "sayHello.h"
+
+
+using namespace std;
+
+template <size_t N>
+void doubleIntsStack(int (&theArray)[N])
+{
+	for (size_t i = 0; i < N; ++i)
+	{
+		std::cout << theArray[i] << ", " << std::endl;
+	}
+}
+
+class Nothing
+{
+public:
+	Nothing() { std::cout << "ctor" << std::endl; }
+	virtual ~Nothing() { std::cout << "dtor" << std::endl; }
+};
+
+void test()
+{
+//	 char** board = new char[10][20];
+
+//	char* p1 = (char*)&std::cout;
+//	char* p2 = static_cast<char*>(&std::cout);
+//	std::cout << p1 << "\t" << p2 << std::endl;
+
+	Nothing* myNothing = new Nothing;
+	shared_ptr<Nothing> sp1(myNothing);
+	shared_ptr<Nothing> sp2(myNothing);
+
+	char cp[10];
+	cp[10] = 'a';
+	cout << cp[10] << endl;
+}
+
+int INT_MAX = 12;
+
+int main() {
+	assert(INT_MAX == 1);
+	std::ostream& out = std::cout;
+	sayHello(out);
+	test();
+	int a[2] = {1, 2};
+	doubleIntsStack(a);
+	return 0;
+}
+
+

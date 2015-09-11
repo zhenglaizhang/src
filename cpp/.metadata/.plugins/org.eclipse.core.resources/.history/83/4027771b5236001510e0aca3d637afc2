@@ -1,0 +1,18 @@
+/*
+ * sayHello.h
+ *
+ *  Created on: Jul 30, 2015
+ *      Author: Darin
+ */
+
+#ifndef SAYHELLO_H_
+#define SAYHELLO_H_
+
+
+
+void sayHello(std::ostream& out) {
+	out << "!!!Hello World!!!" << std::endl;
+}
+
+
+#endif /* SAYHELLO_H_ */

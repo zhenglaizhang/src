@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	ostream& out = cout;
+	cout << "!!!Hello World!!!" << endl;
+	return 0;
+}
